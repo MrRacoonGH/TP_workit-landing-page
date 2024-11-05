@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body  {
+
+}
+
+header {
+
+    background-color: #24053E;
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+    font-size: 80px;   
+    color: white;
+}
+
+
+
+nav {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 56px;
+}
+
+.link-nav {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration-color: #44FFA1; 
+}
+
+.main-title {
+    align-items: center;
+    justify-content: center;
+    width: 635px;
+    margin: auto;
+}
+
+.main-title span {
+    text-decoration:underline;
+    text-decoration-color: #44FFA1 ;
+}
+
+.learn-button {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    background-color: #44FFA1;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.picture-header {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin: 0 auto;
+}
