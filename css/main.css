@@ -18,7 +18,15 @@ h1 {
     color: white;
 }
 
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto ;
+    border-radius: 99px;
+    border: 1px solid black;
 
+}
 
 nav {
     width: 80%;
@@ -48,7 +56,7 @@ nav {
     text-decoration-color: #44FFA1 ;
 }
 
-.learn-button {
+.button {
     font-family: "Manrope", sans-serif;
     font-size: 18px;
     color: black;
@@ -58,6 +66,10 @@ nav {
     padding-right: 32px;
     padding-top: 12px;
     padding-bottom: 12px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .picture-header {
@@ -65,4 +77,82 @@ nav {
     align-items: center;
     justify-content: center ;
     margin: 0 auto;
+}
+
+
+.top-section {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    width: 80%;
+    padding-top: 88px;
+    padding-bottom: 88px;
+}
+
+.card {
+    width: 352px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.title-paragraph-top {
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    color: #24053E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph-top {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    color: #24053E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-bottom-section {
+
+}
+
+.bottom-section {
+    padding-top: 114px;
+    color: white;
+    display: flex;
+}
+
+.card-bottom {
+    background: #24053E;
+    width: 720px;
+    height: 411px;
+    padding: 64px;
+}
+
+.title-bottom-section {
+    font-family: "Fraunces", serif;
+    font-size: 56px;
+    color: white;
+}
+
+.paragraph-bottom-section {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 112px;
+    margin-bottom: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.svg-reseaux {
+    padding-top: 56px;
 }
