@@ -25,7 +25,8 @@ h2 {
     margin: 0 auto ;
     border-radius: 99px;
     border: 1px solid black;
-
+    width: 56px;
+    height: 56px;
 }
 
 nav {
@@ -42,6 +43,10 @@ nav {
     font-size: 18px;
     color: white;
     text-decoration-color: #44FFA1; 
+}
+
+.link-nav:hover {
+    color: #44FFA1;
 }
 
 .main-title {
@@ -77,6 +82,7 @@ nav {
     align-items: center;
     justify-content: center ;
     margin: 0 auto;
+    position: ;
 }
 
 
@@ -92,6 +98,8 @@ nav {
 
 .card {
     width: 352px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -121,9 +129,11 @@ nav {
 }
 
 .bottom-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 114px;
     color: white;
-    display: flex;
 }
 
 .card-bottom {
@@ -131,6 +141,8 @@ nav {
     width: 720px;
     height: 411px;
     padding: 64px;
+    
+
 }
 
 .title-bottom-section {
